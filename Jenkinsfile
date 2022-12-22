@@ -9,17 +9,17 @@ pipeline{
         }
         stage("building..."){
             steps{
-                sh echo "===executing A==="
+                echo "===executing A==="
             }
         }
         stage("testing..."){
             steps{
-                sh echo "===executing A===" 
+                echo "===executing A===" 
             }
         }
         stage("deploying..."){
             steps{
-                sh echo "===executing A==="
+                echo "===executing A==="
             }
         }
     }
