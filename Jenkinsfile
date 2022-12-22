@@ -8,7 +8,7 @@ pipeline{
         }
         stage("building..."){
             steps{
-                echo "===executing A==="
+                sh 'python http_e.py'
             }
         }
         stage("testing..."){
