@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("cloning..."){
             steps{
-                sh 'git clone https://github.com/devopsPRO27/requests.git'
+                sh 'git clone https://github.com/devopsPRO27/requests'
             }
         }
         stage("building..."){
