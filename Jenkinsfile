@@ -3,8 +3,7 @@ pipeline{
     stages{
         stage("cloning..."){
             steps{
-                echo "===executing A==="
-                echo 'hello'
+                sh 'git clone https://github.com/devopsPRO27/requests.git'
             }
         }
         stage("building..."){
