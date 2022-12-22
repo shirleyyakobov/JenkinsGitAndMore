@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("cloning..."){
             steps{
-                sh echo "===executing A==="
+                echo "===executing A==="
                 echo 'hello'
             }
         }
